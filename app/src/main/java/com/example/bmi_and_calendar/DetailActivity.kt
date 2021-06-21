@@ -6,9 +6,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room
 import com.bumptech.glide.Glide
-import com.example.a2021_androidproject.databinding.ActivityDetailBinding
-import com.example.a2021_androidproject.model.Restaurant
-import com.example.a2021_androidproject.model.Review
+import com.example.bmi_and_calendar.databinding.ActivityDetailBinding
+import com.example.bmi_and_calendar.model.Restaurant
+import com.example.bmi_and_calendar.model.Review
 
 class DetailActivity :AppCompatActivity(){
 

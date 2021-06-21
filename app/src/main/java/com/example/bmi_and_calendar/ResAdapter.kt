@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.a2021_androidproject.databinding.ItemResBinding
-import com.example.a2021_androidproject.model.Restaurant
+import com.example.bmi_and_calendar.databinding.ItemResBinding
+import com.example.bmi_and_calendar.model.Restaurant
 
 
 class ResAdapter(private val itemClickedListner : (Restaurant)->Unit): ListAdapter<Restaurant,ResAdapter.ResItemViewHolder>(diffUtil) {

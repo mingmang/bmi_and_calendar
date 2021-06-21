@@ -1,6 +1,6 @@
 package com.example.bmi_and_calendar.API
 
-import com.example.a2021_androidproject.model.ResDTO
+import com.example.bmi_and_calendar.model.ResDTO
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

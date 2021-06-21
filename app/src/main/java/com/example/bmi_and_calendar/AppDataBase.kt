@@ -2,10 +2,10 @@ package com.example.bmi_and_calendar
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.a2021_androidproject.Dao.HistoryDao
-import com.example.a2021_androidproject.Dao.ReviewDao
-import com.example.a2021_androidproject.model.History
-import com.example.a2021_androidproject.model.Review
+import com.example.bmi_and_calendar.Dao.HistoryDao
+import com.example.bmi_and_calendar.Dao.ReviewDao
+import com.example.bmi_and_calendar.model.History
+import com.example.bmi_and_calendar.model.Review
 
 @Database(entities = [History::class, Review::class], version=1)
 abstract class AppDataBase : RoomDatabase() {

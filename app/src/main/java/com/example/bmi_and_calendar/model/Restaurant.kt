@@ -3,7 +3,9 @@ package com.example.bmi_and_calendar.model
 import android.os.Parcelable
 import android.widget.EditText
 import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
+import kotlinx.android.parcel.Parcelize
+
+//import kotlinx.parcelize.Parcelize
 
 //파싱된 결과를 저장할 데이터 클래스.
 @Parcelize

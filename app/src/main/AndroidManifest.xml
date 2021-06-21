@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bmi_and_calendar">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="40ee0e480e2cf2146a0eec1d9d73debc"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

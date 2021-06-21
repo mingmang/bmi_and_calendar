@@ -6,10 +6,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.a2021_androidproject.databinding.ItemHistoryBinding
-import com.example.a2021_androidproject.databinding.ItemResBinding
-import com.example.a2021_androidproject.model.History
-import com.example.a2021_androidproject.model.Restaurant
+import com.example.bmi_and_calendar.databinding.ItemHistoryBinding
+import com.example.bmi_and_calendar.databinding.ItemResBinding
+import com.example.bmi_and_calendar.model.History
+import com.example.bmi_and_calendar.model.Restaurant
 
 class HistoryAdapter(val historyDelectClickedListner: (String)-> Unit): ListAdapter<History, HistoryAdapter.HistoryItemViewHolder>(diffUtil) {
     inner class HistoryItemViewHolder(private val binding : ItemHistoryBinding): RecyclerView.ViewHolder(binding.root){
