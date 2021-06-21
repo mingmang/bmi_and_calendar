@@ -8,13 +8,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Bmi_and_calendar">
+        android:theme="@style/Theme.aut_Bmi_and_calendar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calendar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".BMI"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".GPS"
+            android:label="@string/app_name">
         </activity>
     </application>
 

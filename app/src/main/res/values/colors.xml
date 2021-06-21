@@ -7,4 +7,28 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="spring1">#FFC6EA</color>
+    <color name="spring2">#DC5E9E</color>
+    <color name="spring3">#70B142</color>
+    <color name="spring4">#1f5d13</color>
+    <color name="spring5">#1f1a25</color>
+
+    <color name="summer1">#00ffff</color>
+    <color name="summer2">#ffd919</color>
+    <color name="summer3">#47ff2e</color>
+    <color name="summer4">#ff213d</color>
+    <color name="summer5">#000000</color>
+
+    <color name="autumn1">#e8dea6</color>
+    <color name="autumn2">#CC8D70</color>
+    <color name="autumn3">#B35E30</color>
+    <color name="autumn4">#B8B23B</color>
+    <color name="autumn5">#37374b</color>
+
+    <color name="winter1">#174ab5</color>
+    <color name="winter2">#3882e0</color>
+    <color name="winter3">#85f0ff</color>
+    <color name="winter4">#ccffff</color>
+    <color name="winter5">#000050</color>
 </resources>
